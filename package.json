@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "restAPI Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
